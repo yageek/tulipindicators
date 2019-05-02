@@ -25,7 +25,7 @@
 /*
  *
  * Version 0.8.4
- * Header Build 1537377628
+ * Header Build 1556807115
  *
  */
 
@@ -40,7 +40,7 @@
 
 
 #define TI_VERSION "0.8.4"
-#define TI_BUILD 1537377628
+#define TI_BUILD 1556807115
 
 
 #ifndef TI_SKIP_SYSTEM_HEADERS
@@ -55,8 +55,8 @@ extern "C" {
 #endif
 
 
-const char* ti_version();
-long int ti_build();
+const char* ti_version(void);
+long int ti_build(void);
 
 
 

@@ -26,7 +26,7 @@
 /*
  *
  * Version 0.8.4
- * Header Build 1537377628
+ * Header Build 1556807115
  *
  */
 
@@ -41,8 +41,8 @@
 
 
 
-const char* ti_version() {return TI_VERSION;}
-long int ti_build() {return TI_BUILD;}
+const char* ti_version(void) {return TI_VERSION;}
+long int ti_build(void) {return TI_BUILD;}
 
 
 
